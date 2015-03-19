@@ -60,4 +60,4 @@
   };
 
   module.exports.views = {};
-})( module ? module : { exports: window.inputControls = {} } );
+})( typeof module === 'object' ? module : { exports: window.inputControls = {} } );
